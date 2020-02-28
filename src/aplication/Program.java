@@ -37,7 +37,7 @@ public class Program {
 		
 		}
 		catch(DomainException e){
-			System.out.println(e.getMessage());
+			System.out.println("withdraw error: " + e.getMessage());
 		}
 		catch(InputMismatchException e) {
 			System.out.println("Error: input nunber please!");
